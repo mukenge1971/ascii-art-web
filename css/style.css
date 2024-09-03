@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(183, 183, 197);
+  background-image:  url("backgroundCSS01.jpg");
+  
+}
+h1 {
+  text-align: center;
+  color: rgb(121, 118, 186);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: solid;
+  border-color: rgb(133, 117, 148);
+  }  
+  .boutons {
+    display: flex;
+    justify-content: center;
+  }
+  .texte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  textarea {
+    
+    justify-content: center;
+    align-items: center;
+    resize: none;
+  }
+.sortie {
+  border: solid;
+  border: 3px;
+  border-color: red;
+  height: 200px;
+  width: 200px;
+}

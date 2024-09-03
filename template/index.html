@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII-ART WEB</title>
+    <link rel="stylesheet"  href="/css/style.css">
+
+</head>
+<body>
+    <h1>ASCII-ART WEB</h1>
+            <form method="POST" action="/">
+                
+                                                <div class="boutons">
+                    <input type="radio" id="asciiChoice1" name="asciiChoice"  value="shadow">
+                    <label for="asciiChoice1">shadow</label>
+                    <input type="radio" id="asciiChoice2" name="asciiChoice"  value="standard" checked>
+                    <label for="asciiChoice2">standard</label>
+                    <input type="radio" id="asciiChoice3" name="asciiChoice"  value="thinkertoy">
+                    <label for="asciiChoice3">thinkertoy</label>
+                </div>
+                <div class="texte">
+                    <p>
+                        <label for="write">
+                            Entrer votre texte :
+                        </label>
+                                            </p>
+                    <textarea name="writing" id="write" rows="5" cols="50" style="font-size: xx-large;"></textarea>
+                    <button class="favorite styled" type ="submit" action="/" style="font-size: x-large;"> ENVOYER </button>
+                </div>
+                
+            </form>
+            <div class="sortie">
+            <pre id="output" >{{.Output}}</pre>
+            </div>
+                    
+</body>
+</html>
